@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Decodificador Plano P</title>
+		
+		
+		<link rel="stylesheet" href="index.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		
+	</head>
+
+	<body>
+		<header>
+			<div class="cabecalho">
+				<h1><img src="logo_completo.png" alt="logo Plano P"></h1>
+			</div>
+		</header>	
+		
+		<main>
+			<section>
+				<h2 class = "titulo-decodificador"><em>Decodificador de texto Plano P</em></h2>
+				<p class="introducao"> Crie e decifre mensagens criptografadas de forma fácil e prática! </p>
+				<textarea cols="65" rows="10" class="texto" placeholder="Digite seu texto aqui" style="text-transform:lowercase"></textarea>
+				<div class="importante">
+				<p class="importante">&#x26A0; Utilize apenas letras minúsculas em seu texto.</p>
+				</div>
+				<div >
+					<input type="submit" value="Criptografar Texto"    class="botaocriptografar"    onclick="botaocriptografar()">
+					<input type="submit" value="Descriptografar Texto" class="botaodescriptografar" onclick="botaodescriptografar()">
+					
+				</div>			 			
+			</section>
+			
+						
+			<section >
+				<textarea cols="65" rows="10"  class="mensagem" > </textarea>
+				<div>
+				<input type="submit" value="Copiar" class="botaocopiar" onclick="copiarTexto()"></input>
+				</div>	
+			</section>
+						
+		</main>
+		<footer>
+			<img src="logo_reduzido.png" alt="logo da barbearia Plano P">
+			<p class ="copyrigth">&copy; Copyrigth Plano P 2023</P>
+		</footer>
+		<script src="script.js"> </script>
+	</body>
+</html>
