@@ -4,7 +4,7 @@ body {
 
 
 .cabecalho {
-	background: url("fundo_azul.jpg");
+	background: url("zfundo_azul.jpg");
 	text-align: center;
 	margin: 0;
 }
@@ -63,7 +63,7 @@ input {
 
 footer {
 	text-align: center;
-	background: url("fundo_azul.jpg");
+	background: url("zfundo_azul.jpg");
 	padding: 40px 0;
 }
 
